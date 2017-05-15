@@ -24,5 +24,10 @@ namespace DoStuffApp
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            button1.Content = "I was pushed.";
+        }
     }
 }
